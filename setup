@@ -1,0 +1,41 @@
+#!/bin/BASH
+
+clear
+pkg install figlet
+clear
+pkg install toilet
+clear
+pkg install ruby
+clear
+pkg install cowsay
+clear
+gem install lolcat
+clear
+figlet -f big MPS-YOUTUBE | lolcat
+sleep 2
+echo " "
+printf "\033[1;36m Proses Instalasi Akan Dimulai Dalam Hitungan .... \n"
+sleep 3
+echo -e "\033[1;35m 1 (satu) .... "
+sleep 3
+echo -e "\033[1;35m 2 (dua) .... "
+sleep 3
+echo -e "\033[1;35m 3 (tiga) ... "
+sleep 3
+printf "\033[1;36m Selamat Mendengarkan Musik ... \n"
+sleep 3
+load
+clear
+pkg update
+clear
+pkg upgrade
+clear
+pkg install python python2 -y
+clear
+pip install mps-youtube
+clear
+pip install youtube-dl
+clear
+pkg install mpv
+sleep 2
+python2 youtube.py
