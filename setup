@@ -1,0 +1,29 @@
+#!/bin/BASH
+
+clear
+pkg install figlet
+clear
+pkg install toilet
+clear
+pkg install ruby
+clear
+pkg install cowsay
+clear
+gem install lolcat
+clear
+figlet -f big MPS-YOUTUBE | lolcat
+sleep 2
+echo " "
+load
+clear
+pkg update
+clear
+pkg upgrade
+clear
+pkg install python python2 -y
+clear
+pip install mps-youtube
+clear
+pip install youtube-dl
+clear
+pkg install mpv
